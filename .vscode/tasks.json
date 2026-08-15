@@ -1,0 +1,41 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build Litematica Printer 1.21.11",
+			"type": "shell",
+			"command": ".\\gradlew.bat",
+			"args": [
+				"--no-daemon",
+				"--console=plain",
+				"--stacktrace",
+				"-PtargetVersion=v1_21_11",
+				":v1_21_11:build"
+			],
+			"isBackground": false,
+			"options": {
+				"env": {
+					"JAVA_HOME": "C:\\Users\\user\\.jdks\\temurin-21\\jdk-21.0.12+8"
+				}
+			},
+			"problemMatcher": [
+				"$javac"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Copy Litematica Printer 1.21.11",
+			"type": "process",
+			"command": "C:\\Windows\\System32\\cmd.exe",
+			"args": [
+				"/d",
+				"/c",
+				"copy",
+				"/y",
+				"C:\\Users\\user\\Documents\\litematica-printer_v1.21.11\\v1_21_11\\build\\libs\\litematica-printer-3.4.0-mc1.21.11.jar",
+				"C:\\Users\\user\\Documents\\litematica-printer_v1.21.11\\version\\1.21.11\\litematica-printer-3.4.0-mc1.21.11.jar"
+			],
+			"problemMatcher": []
+		}
+	]
+}

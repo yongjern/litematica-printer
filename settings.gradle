@@ -8,7 +8,13 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
-include 'v1_21_4'
+def targetVersion = providers.gradleProperty('targetVersion').getOrNull()
 
-include(":v1_21_11")
-project(":v1_21_11").projectDir = file("v1_21_11")
+if (targetVersion == null || targetVersion == 'v1_21_4') {
+    include 'v1_21_4'
+}
+
+if (targetVersion == null || targetVersion == 'v1_21_11') {
+    include ':v1_21_11'
+    project(':v1_21_11').projectDir = file('v1_21_11')
+}
