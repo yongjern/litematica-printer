@@ -19,13 +19,15 @@ Litematica Printer 是 Litematica 的列印功能擴充，可以自動選取並�
 | Litematica | 1.21.11-0.26.3（Sakura Ryoko 版本） |
 
 ## 安裝
-
+  
+> 下載模組 JAR 包 : [這裏](https://github.com/yongjern/litematica-printer/releases/tag/passed_test)  
+> Download Mod's JAR [HERE](https://github.com/yongjern/litematica-printer/releases/tag/passed_test)
+  
 1. 安裝 [Fabric Loader](https://fabricmc.net/use/installer/) 及適用於 Minecraft 1.21.11 的 [Fabric API](https://modrinth.com/mod/fabric-api)。
 2. 安裝適用於 1.21.11 的 [MaLiLib](https://github.com/sakura-ryoko/malilib) 與 [Litematica](https://github.com/sakura-ryoko/litematica)。
 3. 將 `litematica-printer-3.4.0-mc1.21.11.jar` 與上述依賴放入 Minecraft 的 `mods` 資料夾。
 4. 使用 Fabric 1.21.11 遊戲設定檔啟動遊戲。
 
-目前建置成品位於 [`version/1.21.11`](version/1.21.11)。
 
 ## 使用方式
 
