@@ -5,6 +5,7 @@
 Litematica Printer 是 Litematica 的列印功能擴充，可以自動選取並放置玩家附近的正確方塊，協助快速完成大型建築。本分支以 1.21.4 版本為基礎，完成 Minecraft 1.21.11 API 遷移與封包同步修復。
 
 > 本專案是 Litematica Printer 的非官方分支。遇到本模組造成的問題時，請勿向 Litematica 原作者回報。
+> Original Author : [aleksilassila](https://github.com/aleksilassila/litematica-printer) · Extend 1.21.4 by [IceTank](https://github.com/IceTank/litematica-printer) · 1.21.11 Version by [ejeebus](https://github.com/ejeebus/litematica-printer) · Fix some bug by **GPT-5.6-sol, [@yongjern, and [@slime1207](https://github.com/Slime1207)
 
 ## 版本需求
 
